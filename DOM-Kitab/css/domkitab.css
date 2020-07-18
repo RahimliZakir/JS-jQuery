@@ -1,0 +1,27 @@
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+     margin: 0;
+}
+
+
+.card-body{
+    -webkit-box-shadow: -1px 2px 5px 12px rgba(0,0,0,0.43);
+-moz-box-shadow: -1px 2px 5px 12px rgba(0,0,0,0.43);
+box-shadow: -1px 2px 5px 12px rgba(0,0,0,0.43);
+}
+
+.isare{
+    font-size: 1.3rem;
+    position: absolute;
+    top: 42px;
+    left: 8px;
+}
+
+.form-group{
+    position: relative;
+}
+
+input{
+    padding-left: 9.5% !important;
+}

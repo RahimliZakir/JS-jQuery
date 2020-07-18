@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Kitab</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/3077fe3d43.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/domkitab.css">
+</head>
+
+<body>
+    <div class="d-flex justify-content-center umumi">
+        <div class="w-25 card  mt-3">
+            <div class="card-body p-0">
+
+                <h5 class="card-title text-center bg-primary py-2 rounded-top">Kitab Evi</h5>
+
+                <form autocomplete="off" class="p-3">
+                    <div class="form-group">
+                        <i class="fas fa-book isare"></i>
+                        <label for="name">Kitabın adı: </label>
+                        <input placeholder="Kitabın adını daxil edin" type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-dollar-sign isare"></i>
+                        <label for="price">Kitabın qiyməti: </label>
+                        <input placeholder="Kitabın qiymətini daxil edin" type="number" class="form-control" id="price">
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-user-tie isare"></i>
+                        <label for="author">Kitabın müəllifi: </label>
+                        <input placeholder="Kitabın müəllifini daxil edin" type="text" class="form-control" id="author">
+                    </div>
+                </form>
+                <div class="buttons d-flex justify-content-around p-3">
+                    <a href="#" id="green-btn" class="btn btn-success">Əlavə et</a>
+                    <a href="#" id="blue-btn" class="btn btn-primary">Öncəkini sil</a>
+                    <a href="#" id="red-btn" class="btn btn-danger">Hamısını sil</a>
+                </div>
+                <div id="gelecek">
+                    <ul id="gelecek-ul" type="none"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./Assets/JavaScript/domkitab.js"></script>
+
+</body>
+
+</html>
