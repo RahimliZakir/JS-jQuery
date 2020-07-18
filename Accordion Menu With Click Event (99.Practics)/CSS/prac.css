@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+    user-select: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+i {
+    color: orangered;
+    font-size: 2rem;
+    margin-right: 0.5%;
+    cursor: pointer;
+}
