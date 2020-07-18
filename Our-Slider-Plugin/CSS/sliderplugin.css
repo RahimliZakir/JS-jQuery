@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+.img1, .img2, .img3 {
+    width: 100%;
+}
+
+.bolum:not(.active) {
+    display: none;
+}
+
+.bolum {
+    animation-name: blur;
+    animation-duration: 1.5s;
+}
+
+.leftA, .rightA {
+    color: gray;
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+.leftA {
+    position: absolute;
+    top: 30%;
+    left: 0.25%;
+    transition: .5s;
+}
+
+.rightA {
+    position: absolute;
+    top: 30%;
+    right: 0.25%;
+    transition: .5s;
+}
+
+.rightA:hover, .leftA:hover {
+    background-color: black;
+    border-radius: 10%;
+    transition: .5s;
+}
+
+.active {
+    display: block;
+}
+
+@keyframes blur {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
